@@ -1,0 +1,71 @@
+.status {
+  padding-bottom: 80px;
+}
+
+.status_wrapper {
+  padding: 56px 60px;
+  background-color: $bgOther;
+}
+
+.status_title {
+  font-family: Unbounded-Bold;
+  font-size: 32px;
+  line-height: 113%;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  padding-bottom: 26px;
+}
+
+.status_form_label {
+  font-family: GolosText-Medium;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  padding-bottom: 15px;
+}
+
+.status_form_wrapper {
+  display: flex;
+}
+
+.status_form_input {
+  padding: 20px 36px;
+  outline: none;
+  font-size: 32px;
+  margin-right: 18px;
+  border-radius: 8px;
+  background: #f6f6f6;
+  border: none;
+  flex-grow: 2;
+}
+
+.status_form_input:-ms-input-placeholder {
+  color: #bfbfbf;
+  font-family: Unbounded-Bold;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.status_form_input::-ms-input-placeholder {
+  color: #bfbfbf;
+  font-family: Unbounded-Bold;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.status_form_input::-webkit-input-placeholder {
+  color: #bfbfbf;
+  font-family: Unbounded-Bold;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.status_form_input:-moz-placeholder {
+  color: #bfbfbf;
+  font-family: Unbounded-Bold;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.status_form_input::-moz-placeholder {
+  color: #bfbfbf;
+  font-family: Unbounded-Bold;
+  font-size: 32px;
+  text-transform: uppercase;
+}

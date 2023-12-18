@@ -1,0 +1,46 @@
+.footer {
+  background-color: $bgOther;
+}
+
+.footer_section {
+  display: flex;
+}
+
+.footer_wrapper {
+  padding: 70px 0 70px 80px;
+  flex-grow: 2;
+}
+
+.footer_contact {
+  padding-bottom: 120px;
+}
+
+.footer_phone {
+  font-family: Unbounded-Bold;
+  font-size: 32px;
+  line-height: 113%;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.footer_info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+.footer_info_text {
+  font-family: GolosText-Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+}
+
+.footer_social {
+  display: flex;
+  gap: 0 16px;
+}
+
+.footer_map {
+  flex-grow: 2;
+}

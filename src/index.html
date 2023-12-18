@@ -4,7 +4,7 @@
 
   <body>
     @@include('html/header.html')
-    <section class="service">
+    <section class="service" id="service">
       <div class="container">
         <h2 class="service_title">Услуги по ремонту и диагностике</h2>
         <p class="header_sub">
@@ -74,6 +74,24 @@
               </form>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="status" id="status">
+      <div class="container-lg">
+        <div class="status_wrapper">
+          <h2 class="status_title">проверка статуса заказа</h2>
+          <form action="#" class="status_form">
+            <p class="status_form_label">Введите ваш номер телефона</p>
+            <div class="status_form_wrapper">
+              <input
+                type="phone"
+                placeholder="+7 (999) 999-99-99"
+                class="status_form_input"
+              />
+              <a href="#" class="btn btn_color btn_form">проверить статус</a>
+            </div>
+          </form>
         </div>
       </div>
     </section>
