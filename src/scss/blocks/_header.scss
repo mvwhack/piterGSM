@@ -1,3 +1,6 @@
+.header {
+  padding-bottom: 75px;
+}
 .header_container {
   display: flex;
   justify-content: space-between;
@@ -11,26 +14,25 @@
 .header_top {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding-bottom: 100px;
 }
 
 .header_logo {
   width: 160px;
   height: 40px;
-  margin-right: 130px;
 }
 
 .header_nav_item {
   display: flex;
-  font-family: GolosText;
+  font-family: druktextwidecyr-mediun;
   font-size: 10px;
   font-style: normal;
-  font-weight: 500;
-  line-height: normal;
   text-transform: uppercase;
 }
 
 .header_nav_list:not(:last-child) {
-  padding-right: 37px;
+  padding-right: 25px;
 }
 
 .header_nav_list {
@@ -40,4 +42,22 @@
 
 .header_nav_list img {
   padding-left: 4px;
+}
+
+.header_title {
+  font-family: Unbounded-Bold;
+  font-size: 40px;
+  line-height: 113%;
+  letter-spacing: -1.2px;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+}
+
+.header_subTitle {
+  font-family: GolosText-Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+  max-width: 476px;
+  padding-bottom: 44px;
 }

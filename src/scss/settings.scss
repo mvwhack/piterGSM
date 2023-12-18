@@ -100,3 +100,31 @@ select {
   width: 1920px;
   margin: 0 auto;
 }
+
+.btns {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  padding: 20px 36px;
+  font-family: druktextwidecyr-mediun;
+  font-size: 10px;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: 1px solid $mainTextColor;
+}
+
+.btn_color {
+  display: flex;
+  align-items: center;
+  border: 1px solid $btnColor;
+  background-color: $btnColor;
+  color: $btnColorText;
+  margin-right: 24px;
+}
+
+.btn_color img {
+  padding-left: 27px;
+}
