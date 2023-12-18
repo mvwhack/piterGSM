@@ -1,16 +1,82 @@
 <!DOCTYPE html>
 <html lang="ru">
+  @@include('html/head.html', { "title":"Главная" })
 
-@@include('html/head.html', {
-"title":"Главная"
-})
-
-<body>
-  @@include('html/header.html')
-  <section class="service">
-
-  </section>
-  @@include('html/footer.html')
-</body>
-
+  <body>
+    @@include('html/header.html')
+    <section class="service">
+      <div class="container">
+        <h2 class="service_title">Услуги по ремонту и диагностике</h2>
+        <p class="header_sub">
+          Выберите услугу и оставьте заявку, менеджер свяжется с вами в рабочее
+          время
+        </p>
+        <div class="service_blocks">
+          <div class="service_btns">
+            <div class="service_btns_wrapper">
+              <h3 class="service_btns_title">1. Выберите услугу</h3>
+              <div class="service_btns_section">
+                <a href="#" class="btn service_btn">Замена дисплея</a>
+                <a href="#" class="btn service_btn">Замена аккумулятора</a>
+                <a href="#" class="btn service_btn">Диагностика</a>
+                <a href="#" class="btn service_btn"
+                  >Диагностика после попадания жидкости</a
+                >
+                <a href="#" class="btn service_btn">Ремонт FaceID</a>
+                <a href="#" class="btn service_btn">Перенос данных</a>
+                <a href="#" class="btn service_btn">Установка приложений</a>
+              </div>
+            </div>
+            <div class="service_btns_garant">
+              <img src="@img/gaant.svg" alt="Icon: garant" />
+              <p class="service_btns_garant_desc">
+                Используем только оригинальные и качественные комплектующие
+              </p>
+            </div>
+          </div>
+          <div class="service_form">
+            <div class="service_form_wrapper">
+              <h3 class="service_form_title">2. Заполните форму и отправьте</h3>
+              <p class="service_form_sub">
+                После получения вашей заявки с вами свяжется менеджер для
+                подтверждения
+              </p>
+              <form action="#" class="service_forms">
+                <div class="service_forms_block">
+                  <span class="service_forms_label">Ваши имя и фамилия</span>
+                  <input
+                    type="name"
+                    placeholder="Александр Александров"
+                    class="service_forms_input"
+                  />
+                </div>
+                <div class="service_forms_block">
+                  <span class="service_forms_label">Ваш телефон</span>
+                  <input
+                    type="phone"
+                    placeholder="+7 (999) 999-99-99"
+                    class="service_forms_input"
+                  />
+                </div>
+                <div class="service_forms_block">
+                  <span class="service_forms_label">Ваше устройство</span>
+                  <input
+                    type="text"
+                    placeholder="iPhone 13"
+                    class="service_forms_input"
+                  />
+                </div>
+                <a href="#" class="btn btn_color btn_form">Отправить заявку</a>
+                <p class="service_forms_text">
+                  Отправляя данную форму, вы соглашаетесь с нашей политикой
+                  обработки персональных данных
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    @@include('html/footer.html')
+  </body>
 </html>

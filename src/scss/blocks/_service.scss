@@ -1,0 +1,183 @@
+.service {
+  padding-bottom: 80px;
+}
+
+.service_title {
+  font-family: Unbounded-Bold;
+  font-size: 32px;
+  line-height: 113%;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+}
+
+.header_sub {
+  font-family: GolosText-Medium;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  padding-bottom: 58px;
+}
+
+.service_blocks {
+  display: flex;
+  justify-content: space-between;
+  min-height: 550px;
+}
+
+.service_btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.service_btns_wrapper {
+  max-width: 780px;
+}
+
+.service_btns_title {
+  font-family: GolosText-Medium;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 113%;
+  letter-spacing: -0.6px;
+  padding-bottom: 30px;
+}
+
+.service_btns_section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.service_btn {
+  border: 1px solid $serviceBtnBorder;
+}
+
+.service_btn:hover {
+  border-radius: 8px;
+  background: $serviceBtnHover;
+  color: $btnColorText;
+}
+
+.service_btns_garant {
+  display: flex;
+  border-radius: 8px;
+  background: $bgOther;
+  padding: 16px;
+  max-width: 360px;
+}
+
+.service_btns_garant img {
+  width: 35px;
+  height: 40px;
+  margin-right: 17px;
+}
+
+.service_btns_garant_desc {
+  font-family: GolosText-Medium;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.24px;
+}
+
+.service_form {
+  width: 704px;
+}
+
+.service_form_title {
+  font-family: Unbounded-Medium;
+  font-size: 20px;
+  line-height: 113%;
+  letter-spacing: -0.6px;
+  padding-bottom: 12px;
+}
+
+.service_form_sub {
+  font-family: GolosText-Medium;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  padding-bottom: 36px;
+}
+
+.service_forms_block {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 22px;
+}
+
+.service_forms_label {
+  font-family: GolosText-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+  padding-bottom: 6px;
+}
+
+.service_forms_input {
+  padding: 22px 24px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  outline: none;
+  font-family: GolosText-Medium;
+  font-size: 16px;
+}
+
+.service_forms_input:-ms-input-placeholder {
+  color: #bfbfbf;
+  font-family: GolosText-Medium;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+}
+.service_forms_input::-ms-input-placeholder {
+  color: #bfbfbf;
+  font-family: GolosText-Medium;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+}
+.service_forms_input::-webkit-input-placeholder {
+  color: #bfbfbf;
+  font-family: GolosText-Medium;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+}
+.service_forms_input:-moz-placeholder {
+  color: #bfbfbf;
+  font-family: GolosText-Medium;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+}
+.service_forms_input::-moz-placeholder {
+  color: #bfbfbf;
+  font-family: GolosText-Medium;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+}
+
+.service_forms_text {
+  font-family: GolosText-Medium;
+  font-size: 13px;
+  line-height: normal;
+  letter-spacing: -0.195px;
+  color: $grayText;
+  text-align: center;
+}
