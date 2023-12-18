@@ -1,0 +1,43 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_section {
+  padding: 70px 0 0 80px;
+  max-width: 900px;
+}
+
+.header_top {
+  display: flex;
+  align-items: center;
+}
+
+.header_logo {
+  width: 160px;
+  height: 40px;
+  margin-right: 130px;
+}
+
+.header_nav_item {
+  display: flex;
+  font-family: GolosText;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.header_nav_list:not(:last-child) {
+  padding-right: 37px;
+}
+
+.header_nav_list {
+  display: flex;
+  align-items: center;
+}
+
+.header_nav_list img {
+  padding-left: 4px;
+}

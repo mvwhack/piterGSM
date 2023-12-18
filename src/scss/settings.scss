@@ -85,3 +85,18 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+.container {
+  width: 1760px;
+  margin: 0 auto;
+}
+
+.container-lg {
+  width: 1880px;
+  margin: 0 auto;
+}
+
+.container-xl {
+  width: 1920px;
+  margin: 0 auto;
+}
